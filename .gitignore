@@ -1,0 +1,8 @@
+*.pyc
+.idea
+ppay
+pcms
+__pycache__/*
+venv/
+.env
+*.log

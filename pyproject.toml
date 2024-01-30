@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "aws-cloudwatch-docker"
+version = "0.1.0"
+description = ""
+authors = ["Nikolai Zinchenko <nikolaizinchenko94@gmail.com>"]
+readme = "README.md"
+packages = [{include = "aws_cloudwatch_docker"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
